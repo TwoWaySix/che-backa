@@ -1,6 +1,6 @@
 # **Che-Backa**: **Ch**ecked **Back**up **A**utomation 
 
-An automated simple yet powerful backup solution that checks the integrity of the backups by using **MD5 checksums** and **meta data**. No external dependencies. Just pure **Go**.
+An automated simple yet powerful backup solution that checks the integrity of the backups by using **MD5 checksums** and **meta data**. 
 
 # THE PROJECT IS STILL IN EARLY CONCEPT PHASE
 
