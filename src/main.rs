@@ -1,5 +1,4 @@
 use std::fs::File;
-use std::fs;
 use std::io::prelude::*;
 use std::path::Path;
 
@@ -22,7 +21,7 @@ fn main() {
     println!("{:?}", hash);
 
     let copy_path = Path::new("data/image2.jpeg");
-    fs::copy(path, copy_path).unwrap();
+    std::fs::copy(path, copy_path).unwrap();
     
     // Testing if md5 is the same
     let mut file2 = File::open(&copy_path).unwrap();
