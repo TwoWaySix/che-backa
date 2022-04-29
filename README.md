@@ -4,6 +4,7 @@ An automated simple yet powerful backup solution that checks the integrity of th
 
 # THE PROJECT IS STILL IN EARLY CONCEPT PHASE
 
+
 ## Concept
 - Allows daily, weekly and monthly versioned backups
 - Before each backup, all the files are compared to the newest backup
